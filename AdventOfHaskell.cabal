@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6c4f0234437d976f3427d0bf054909bc962c559db74e07f3dc32fab65c7d969b
+-- hash: 665e2fa47635ac7e26b3284d28f0b448383d456776d9a51a2463a3004568d950
 
 name:           AdventOfHaskell
 version:        0.1.0.0
@@ -31,9 +31,9 @@ library
   build-depends:
       base >=4.7 && <5
   exposed-modules:
-      Lib
       Zad1
   other-modules:
+      Lib
       Paths_AdventOfHaskell
   default-language: Haskell2010
 
@@ -57,8 +57,9 @@ test-suite AdventOfHaskell-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       AdventOfHaskell
+    , HUnit
     , base >=4.7 && <5
   other-modules:
-      Zad1
+      Zad1Spec
       Paths_AdventOfHaskell
   default-language: Haskell2010

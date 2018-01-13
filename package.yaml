@@ -24,6 +24,7 @@ dependencies:
 
 library:
   source-dirs: src
+  exposed-modules: Zad1
 
 executables:
   AdventOfHaskell-exe:
@@ -46,3 +47,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - AdventOfHaskell
+    - HUnit
