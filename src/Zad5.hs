@@ -1,4 +1,4 @@
-module Zad5(solve5_1, solve5_2,conv) where
+module Zad5(solve,solve5_1, solve5_2,conv) where
 
 import Data.Char
 import Data.List
@@ -47,3 +47,12 @@ solve5_1 list = jumpThrough_1 list 0 0
 
 solve5_2 :: [Int] -> Int
 solve5_2 list = jumpThrough_2 list 
+
+
+solve :: [Char] -> IO()
+solve path = do
+        input <- readFile path
+       	print $ solve5_1 $ conv input	
+
+
+
