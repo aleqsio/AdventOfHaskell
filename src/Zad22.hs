@@ -24,8 +24,8 @@ checksum line= sum $ findDiffs line
 
 main :: IO ()
 main = do
-	input <-readFile "input2.txt"
-	let sum = checksum input
-	putStrLn $show $ sum
+    input <-readFile "input2.txt"
+    let sum = checksum input
+    putStrLn $show $ sum
 
 

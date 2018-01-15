@@ -1,8 +1,6 @@
 module Main where
 
-import Zad1
-import Zad2
+import Zad7_2
 
 main :: IO ()
-main = print $ solve "1212"
---main=print $ solve2 "12131415"
+main = solve "input7.txt"

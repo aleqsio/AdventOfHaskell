@@ -21,11 +21,13 @@ description:         Please see the README on Github at <https://github.com/aleq
 
 dependencies:
 - base >= 4.7 && < 5
+- text
 
 library:
   source-dirs: src
-  exposed-modules: Zad1
-
+  exposed-modules: Zad1, Zad24,Zad24_2,Zad7
+  #,Zad7_2
+  other-modules: Zad2, Zad22
 executables:
   AdventOfHaskell-exe:
     main:                Main.hs
