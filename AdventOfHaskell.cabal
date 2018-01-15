@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 75f1638be29815ba98eb7dcb71fef52a82a180d165616ea538e3892a139903fc
+-- hash: 36307272d9e1052f6587b36c5898805dd152fc66f33725e7d302de8c50defe4d
 
 name:           AdventOfHaskell
 version:        0.1.0.0
@@ -32,7 +32,7 @@ library
       base >=4.7 && <5
     , text
   exposed-modules:
-      Zad1, Zad24,Zad24_2,Zad7,Zad7_2
+      Zad1, Zad24,Zad24_2,Zad7
   other-modules:
       Zad2, Zad22
   default-language: Haskell2010
