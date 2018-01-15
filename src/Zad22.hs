@@ -28,3 +28,4 @@ main = do
 	let sum = checksum input
 	putStrLn $show $ sum
 
+
