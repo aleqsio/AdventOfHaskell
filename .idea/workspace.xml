@@ -834,7 +834,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515801500013</updated>
-      <workItem from="1516055414097" duration="9397000" />
+      <workItem from="1516055414097" duration="9424000" />
     </task>
     <task id="LOCAL-00001" summary="fixed missing zad7">
       <created>1515982996903</created>
@@ -843,11 +843,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515982996903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added final working version">
+      <created>1516066831569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516066831569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9476000" />
+    <option name="totallyTimeSpent" value="9503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -919,8 +926,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="fixed missing zad7" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed missing zad7" />
+    <MESSAGE value="added final working version" />
+    <option name="LAST_COMMIT_MESSAGE" value="added final working version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
