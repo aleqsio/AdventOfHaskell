@@ -22,12 +22,11 @@ description:         Please see the README on Github at <https://github.com/aleq
 dependencies:
 - base >= 4.7 && < 5
 - text
-
+- containers
 library:
   source-dirs: src
-  exposed-modules: Zad1, Zad24,Zad24_2,Zad7
-  #,Zad7_2
-  other-modules: Zad2, Zad22
+  exposed-modules:
+  other-modules:
 executables:
   AdventOfHaskell-exe:
     main:                Main.hs
@@ -38,6 +37,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - AdventOfHaskell
+
 
 tests:
   AdventOfHaskell-test:

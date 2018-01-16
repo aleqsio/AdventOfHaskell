@@ -4,7 +4,6 @@ import Test.HUnit
 import Zad24
 import Zad24_2
 
-test1 = TestCase (assertEqual "solve" 1940 $ solve "input24.txt")
-test2 = TestCase (assertEqual "solve2" 1928 $ solve2 "input24.txt")
-
-testsZad24Spec = TestList [test1,test2]
+test1 = TestCase (assertEqual "solve" 1940 $ solveText "42/37\n28/28\n29/25\n45/8\n35/23\n49/20\n44/4\n15/33\n14/19\n31/44\n39/14\n25/17\n34/34\n38/42\n8/42\n15/28\n0/7\n49/12\n18/36\n45/45\n28/7\n30/43\n23/41\n0/35\n18/9\n3/31\n20/31\n10/40\n0/22\n1/23\n20/47\n38/36\n15/8\n34/32\n30/30\n30/44\n19/28\n46/15\n34/50\n40/20\n27/39\n3/14\n43/45\n50/42\n1/33\n6/39\n46/44\n22/35\n15/20\n43/31\n23/23\n19/27\n47/15\n43/43\n25/36\n26/38\n1/10\n")
+test2 = TestCase (assertEqual "solve2" 1928 $ solveText2 "42/37\n28/28\n29/25\n45/8\n35/23\n49/20\n44/4\n15/33\n14/19\n31/44\n39/14\n25/17\n34/34\n38/42\n8/42\n15/28\n0/7\n49/12\n18/36\n45/45\n28/7\n30/43\n23/41\n0/35\n18/9\n3/31\n20/31\n10/40\n0/22\n1/23\n20/47\n38/36\n15/8\n34/32\n30/30\n30/44\n19/28\n46/15\n34/50\n40/20\n27/39\n3/14\n43/45\n50/42\n1/33\n6/39\n46/44\n22/35\n15/20\n43/31\n23/23\n19/27\n47/15\n43/43\n25/36\n26/38\n1/10\n")
+testsZad24Spec = [test1,test2]
